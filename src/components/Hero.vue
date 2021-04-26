@@ -10,12 +10,24 @@
         aspernatur! At necessitatibus impedit quis repellendus nisi incidunt
         adipisci, culpa ut ipsum.
       </p>
+      <button
+        v-on:click="action"
+        class="btn btn-lg btn-light btn-outline-secondary"
+      >
+        Call to Action
+      </button>
     </div>
   </section>
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    action() {
+      console.log("Action button clicked!!!");
+    },
+  },
+};
 </script>
 
 <style scoped>
