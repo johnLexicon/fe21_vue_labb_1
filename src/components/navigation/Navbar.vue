@@ -32,8 +32,4 @@ export default {};
   font-family: "Dancing Script", cursive;
   font-size: 2rem;
 }
-
-.bg-dark {
-  background-color: var(--primary) !important;
-}
 </style>
